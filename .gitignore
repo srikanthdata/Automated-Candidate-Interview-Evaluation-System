@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Miniconda installer
+
+Miniconda3-latest-MacOSX-arm64.sh
+
+# macOS files
+.DS_Store
