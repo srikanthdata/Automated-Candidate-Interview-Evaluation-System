@@ -1,12 +1,30 @@
-autogen-agentchat===0.5.7
+# AutoGen Framework
+autogen-agentchat==0.5.7
 autogen-core
 autogen-ext
-python-dotenv
-openai
+
+# OpenAI
+openai>=1.50.0
 tiktoken
-pydantic
-fastapi
-uvicorn
+
+# Environment
+python-dotenv
+
+# Data Validation
+pydantic>=2.0
+
+# FastAPI Stack
+fastapi==0.115.6
+starlette==0.41.3
+uvicorn[standard]
 websockets
-jinja2
+
+# Templates / Static Files
+jinja2==3.1.6
 aiofiles
+
+# HTTP Client (required by OpenAI)
+httpx
+
+# Async Support
+anyio
